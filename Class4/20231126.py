@@ -46,4 +46,4 @@ def traverse(head):
     while ptr != None:
         print("The color of the car is {}.". format(ptr.color))
         ptr = ptr.next
-traverse(head)
+print("Finish traverse!")
