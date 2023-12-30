@@ -12,9 +12,4 @@ def is_prime(n):
 user_input = int(input("Enter a number: "))
 result = is_prime(user_input)
 
-if result:
-    print(f"{user_input} 是否為質數: True")
-else:
-    print(f"{user_input} 是否為質數: False")
-
 print("O(n)")
