@@ -1,15 +1,16 @@
-
-
-class Car:
+class Employee:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-head = Car("Amy", "25")
+        self.next = None
+first = Employee("Amy", 25)
+first.next = None
 
-def traverse(head):
-    ptr = head
+def traverse(first):
+    ptr = first
     while ptr != None:
-        print("The employee name is", ptr.name, "and the age is", ptr.age, ".")
-        print("Finish traverse!")
-        break
-traverse(head)
+        print("The employee name is {} and the age is {}.". format(ptr.name, ptr.age))
+        ptr = ptr.next
+
+traverse(first)
+print("Finish traverse!")
