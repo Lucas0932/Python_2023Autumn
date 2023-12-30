@@ -16,3 +16,5 @@ if result:
     print(f"{user_input} 是否為質數: True")
 else:
     print(f"{user_input} 是否為質數: False")
+
+print("O(n)")
