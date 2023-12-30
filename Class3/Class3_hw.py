@@ -4,4 +4,4 @@ a = [[1, 2, 4],
 b = [[a[j][i] for j in range(len(a))] for i in range(len(a[0]))]
 for i in b:
     print(i)
-print("O(n)")
+print("O(n^2)")
